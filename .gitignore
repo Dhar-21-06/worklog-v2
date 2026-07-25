@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite
+*.db
+*.log
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Node
+node_modules/
+dist/
+coverage/
+
+# Vite
+.vite/
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+
+# Exports
+exports/
+
+# Backups
+backups/
+
+# Environment
+.env
+.env.*
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+
+# Misc
+*.tmp
+*.bak
