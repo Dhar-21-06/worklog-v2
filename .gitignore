@@ -9,6 +9,8 @@ __pycache__/
 .venv/
 venv/
 env/
+*.egg-info/
+.ruff_cache/
 
 # PyInstaller
 build/
@@ -19,6 +21,7 @@ dist/
 node_modules/
 dist/
 coverage/
+.eslintcache
 
 # Vite
 .vite/
@@ -45,6 +48,7 @@ backups/
 # Environment
 .env
 .env.*
+!.env.example
 
 # Testing
 .pytest_cache/
